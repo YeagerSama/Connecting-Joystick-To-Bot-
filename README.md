@@ -28,6 +28,15 @@ Run the command:
 ```
 evtest
 ```
+-Usually, the last number from the range given is the ID of the 
+ controller.
+-Move the joystick/gamepad to confirm that it's detected and working.
+-If sucessful, you will see values updating in the terminal, indicating that Linux recognizes the device.
 
+# Visualize Joystick Input with jstest-gtk:
+
+Run the command:
+```
+jstest-gtk
 
 
