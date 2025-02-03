@@ -18,8 +18,7 @@ class Joystick_Controller(Node):
         msg=Twist()
         msg.linear.y=data.axes[0]*2.0
         msg.linear.x=data.axes[1]*4.0
-        if data.axes[3]<(-0.5) or data.axes[3]>0.0 :
-          msg.angular.z=data.axes[3]
+        msg.angular.z=data.axes[3]
         self.giveVel.publish(msg)
 
 
