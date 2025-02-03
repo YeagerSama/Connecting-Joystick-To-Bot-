@@ -7,7 +7,7 @@ In this tutorial I will be using a Microsoft Xbox Controller with a dongle, and 
 # Pre-Requisites:
 
 1.Joystick/Gamepad <br>
-2.Basic knowledge of ROS2 Publisher-Subscriber concepts <.br>
+2.Basic knowledge of ROS2 Publisher-Subscriber concepts <br>
 3.Crearting a launch file(optional) <br>
 
 # Installation Steps:
