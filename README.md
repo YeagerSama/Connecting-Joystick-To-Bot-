@@ -6,15 +6,15 @@ In this tutorial I will be using a Microsoft Xbox Controller with a dongle, and 
 
 # Pre-Requisites:
 
-1.Joystick/Gamepad
-2.Basic knowledge of ROS2 Publisher-Subscriber concepts
-3.Crearting a launch file(optional)
+1.Joystick/Gamepad <br>
+2.Basic knowledge of ROS2 Publisher-Subscriber concepts <.br>
+3.Crearting a launch file(optional) <br>
 
 # Installation Steps:
 
-joystick – Provides the jstest and jscal utilities for testing and calibrating joystick devices.
-jtest-gtk – A GTK-based graphical joystick testing tool.
-evtest – A command-line utility for monitoring input device events, useful for debugging joystick inputs.
+joystick – Provides the jstest and jscal utilities for testing and calibrating joystick devices. <br>
+jtest-gtk – A GTK-based graphical joystick testing tool. <br>
+evtest – A command-line utility for monitoring input device events, useful for debugging joystick inputs.<br>
 Run the command:
 ```
 sudo apt upgrade
@@ -29,9 +29,9 @@ Run the command:
 evtest
 ```
 -Usually, the last number from the range given is the ID of the 
- controller.
--Move the joystick/gamepad to confirm that it's detected and working.
--If sucessful, you will see values updating in the terminal, indicating that Linux recognizes the device.
+ controller.<br>
+-Move the joystick/gamepad to confirm that it's detected and working.<br>
+-If sucessful, you will see values updating in the terminal, indicating that Linux recognizes the device.<br>
 
 # Visualize Joystick Input with jstest-gtk:
 
@@ -39,8 +39,8 @@ Run the command:
 ```
 jstest-gtk
 ```
-This will provide visual representation of the joystick's inputs.You can even play around with this and figure out what movements the buttons, thumb sticks, and triggers are responsible for.
-Note: This tool relies on an older driver underneath.
+This will provide visual representation of the joystick's inputs.You can even play around with this and figure out what movements the buttons, thumb sticks, and triggers are responsible for.<br>
+Note: This tool relies on an older driver underneath.<br>
 
 # Running ROS-2 Joystick Nodes:
 
