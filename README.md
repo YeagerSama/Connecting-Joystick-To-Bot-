@@ -64,7 +64,7 @@ This will give a joystick ID, which is different from the evtest ID.The evtest I
 
 # Working of the sensor_msgs/msg/joy interface:
 
-![Description](/home/livininamatrix/Pictures/Screenshots)
+![Description](joy_msg_interface.png)
 
 
 float32 axes[6]  -- The axes as mentioned in the table each control different motion. Each index is mapped to a particular movement. How intensely the motion occurs (i.e. not speed but complete left/right or complete up/down)depends on the analog input from the thumb controls and the LT and RT (trigger-buttons). Each element in the array can have value between -1.0 to 1.0 .
