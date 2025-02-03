@@ -129,6 +129,6 @@ To run the launch file:
 ```
 ros2 launch <package_name> <launch_file_name>
 ```
-
-
-
+# Reference Links:
+https://creating-a-simple-launch-file.hashnode.dev/creating-launch-file
+https://docs.ros.org/en/rolling/p/joy/
